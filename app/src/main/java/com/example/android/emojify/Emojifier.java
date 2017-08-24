@@ -36,6 +36,8 @@ public class Emojifier {
             Toast.makeText(context,"No Faces detected.", Toast.LENGTH_SHORT).show();
         }
 
+        detector.release();
+
         return faces;
     }
 }
