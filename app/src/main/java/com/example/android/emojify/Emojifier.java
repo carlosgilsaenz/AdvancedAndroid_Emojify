@@ -104,7 +104,7 @@ class Emojifier {
                         break;
                 }
                 // complete (8): Call addBitmapToFace(), passing in the resultBitmap, the emojiBitmap and the Face  object, and assigning the result to resultBitmap
-                resultBitmap = addBitmapToFace(picture,emojiBitmap,face);
+                resultBitmap = addBitmapToFace(resultBitmap,emojiBitmap,face);
             }
         }
 
